@@ -1,0 +1,17 @@
+{
+	"fieldOfView": 120,
+	"minRadius": 29.9,
+	"maxRadius": 30.1,
+	"leftLimit": -20,
+	"rightLimit": 20,
+	"lowerLimit": 15,
+	"upperLimit": 45,
+	"targetSize": [2, 2, 2],
+	
+	"fieldOfView gets distorted beyond ~120, but will go up to 179.":
+	"minRadius and maxRadius should stay around 30.",
+	"leftLimit and rightLimit can be any value between 0 and 360 with values outside being normalised e.g., -20 becomes 340.":
+	"lowerLimit and upperLimit should be between 0 and 90.",
+	"targetSize changes the size of the target... Pretty obvious.":
+	""
+}
